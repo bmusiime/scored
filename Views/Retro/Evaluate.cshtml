@@ -1,0 +1,61 @@
+﻿@using Scored.Models
+@model Scored.ViewModels.RetroViewModel
+
+<h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">
+    Retro evaluation Form
+</h2>
+<h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5">
+    Fill the form below and submit
+</h3>
+@using (Html.BeginForm())
+{
+    <div class="table-wrapper">
+        <div class="container">
+            <div class="row search">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="dataTables_filter">
+                        <label class="searchInfo mbr-fonts-style display-7">  @Html.LabelFor(model => model.RetroDate, htmlAttributes: new { @class = "control-label col-md-2" })</label>
+                        @Html.EditorFor(model => model.RetroDate, new { htmlAttributes = new { @class = "form-control" } })
+                        @Html.ValidationMessageFor(model => model.RetroDate, "", new { @class = "text-danger" })
+                    </div>
+                </div>
+            </div>
+            <div class="container scroll">
+                <table class="table isSearch" cellspacing="0">
+                    <thead>
+                        <tr class="table-heads ">
+                            <th class="head-item mbr-fonts-style display-7">
+                                @Html.DisplayNameFor(model => model.SelectedSkillTitle)
+                            </th>
+                            <th class="head-item mbr-fonts-style display-7">
+                                @Html.DisplayNameFor(model => model.Level)
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @foreach (var item in ViewBag.skillsList)
+                        {
+                            <tr>
+                                <td class="body-item mbr-fonts-style display-7">
+                                    <input type="hidden" value="@item.ID" name="SkillID" id="SkillID">
+                                    @item.Title
+                                    @Html.ValidationMessageFor(model => model.SkillID, "", new { @class = "text-danger" })
+                                </td>
+                                <td class="body-item mbr-fonts-style display-7">
+                                    @Html.DropDownListFor(model => model.Level, new SelectList(Enum.GetValues(typeof(Level))), "- Select Level -")
+                                    @Html.ValidationMessageFor(m => m.Level)
+                                </td>
+                            </tr>
+                        }
+                    </tbody>
+                </table>
+                <div class="form-group">
+                    <div class="col-md-offset-2 col-md-10">
+                        <input type="submit" value="Submit" class="btn btn-primary" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+}

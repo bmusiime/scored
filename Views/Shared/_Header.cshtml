@@ -1,0 +1,62 @@
+﻿<section class="menu cid-qTkzRZLJNu" once="menu" id="menu1-0">
+    <nav class="navbar navbar-expand beta-menu navbar-dropdown align-items-center navbar-fixed-top navbar-toggleable-sm">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+        <div class="menu-logo">
+            <div class="navbar-brand">
+                @*<span class="navbar-logo">
+                    <a href="#">
+                        <img src="" alt="Scored" title="" style="height: 4rem;">
+                    </a>
+                </span>*@
+                <span class="navbar-caption-wrap">
+                    <a class="navbar-caption text-white display-4" href="#">
+                        Scored
+                        </a>
+                </span>
+                @*<p class="text-regular">Hello Firstname</p>*@
+            </div>
+        </div>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav nav-dropdown" data-app-modern-menu="true">
+                <li class="nav-item">
+                    <a class="nav-link link text-white display-4" href="/Home" aria-expanded="false">
+                        <span class="mbri-home mbr-iconfont mbr-iconfont-btn">
+                        </span>
+                        Home
+                    </a>
+                    </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link link text-white dropdown-toggle display-4" href="/Retro/" data-toggle="dropdown-submenu" aria-expanded="false">
+                        <span class="mbri-user mbr-iconfont mbr-iconfont-btn"></span>
+                        Retros
+                    </a>
+                    <div class="dropdown-menu">
+                        @Html.ActionLink("Evaluate", "Evaluate", new { Controller = "Retro" }, new { @class = "text-white dropdown-item display-4" })
+                        @Html.ActionLink("Report", "Report", new { Controller = "Retro" }, new { @class = "text-white dropdown-item display-4" })
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link link text-white dropdown-toggle display-4" data-toggle="dropdown-submenu" aria-expanded="false">
+                        <span class="mbri-setting3 mbr-iconfont mbr-iconfont-btn"></span>
+                        Settings
+                    </a><div class="dropdown-menu">
+                         @Html.ActionLink("Skills", "Index", new { Controller = "Skill" }, new { @class = "text-white dropdown-item display-4" })
+                   </div>
+                </li>
+            </ul>
+            <div class="navbar-buttons mbr-section-btn">
+                <a class="btn btn-sm btn-primary display-7" href="#">
+                    <span class="mbri-alert mbr-iconfont mbr-iconfont-btn" style="color: rgb(239, 145, 14);"></span>
+                    3
+                </a>
+            </div>
+        </div>
+    </nav>
+</section>

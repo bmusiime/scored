@@ -1,0 +1,402 @@
+﻿[
+  {
+    "id": 1,
+    "level": 2,
+    "retroDate": "2001-11-11T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 2,
+    "level": 3,
+    "retroDate": "2001-11-11T00:00:00",
+    "skillID": 2,
+    "skill": {
+      "id": 2,
+      "title": "Change Management",
+      "description": "To prepare and support individuals, teams, and organizations in making organizational change."
+    },
+    "selectedSkillTitle": "Change Management",
+    "selectedSkillDescription": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 3,
+    "level": 1,
+    "retroDate": "2001-11-11T00:00:00",
+    "skillID": 3,
+    "skill": {
+      "id": 3,
+      "title": "Back to self",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Back to self",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "retroDate": "2001-02-02T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 5,
+    "level": 3,
+    "retroDate": "2001-02-02T00:00:00",
+    "skillID": 2,
+    "skill": {
+      "id": 2,
+      "title": "Change Management",
+      "description": "To prepare and support individuals, teams, and organizations in making organizational change."
+    },
+    "selectedSkillTitle": "Change Management",
+    "selectedSkillDescription": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 6,
+    "level": 3,
+    "retroDate": "2001-02-02T00:00:00",
+    "skillID": 3,
+    "skill": {
+      "id": 3,
+      "title": "Back to self",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Back to self",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1002,
+    "level": 3,
+    "retroDate": "2018-12-19T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1003,
+    "level": 1,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1004,
+    "level": 4,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 2,
+    "skill": {
+      "id": 2,
+      "title": "Change Management",
+      "description": "To prepare and support individuals, teams, and organizations in making organizational change."
+    },
+    "selectedSkillTitle": "Change Management",
+    "selectedSkillDescription": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1005,
+    "level": 0,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 3,
+    "skill": {
+      "id": 3,
+      "title": "Back to self",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Back to self",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1006,
+    "level": 1,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 4,
+    "skill": {
+      "id": 4,
+      "title": "Mentoring",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Mentoring",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1007,
+    "level": 2,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 5,
+    "skill": {
+      "id": 5,
+      "title": "Coaching",
+      "description": "This is for testing"
+    },
+    "selectedSkillTitle": "Coaching",
+    "selectedSkillDescription": "This is for testing",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1008,
+    "level": 1,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 1012,
+    "skill": {
+      "id": 1012,
+      "title": "Title Testing",
+      "description": "Description Testing"
+    },
+    "selectedSkillTitle": "Title Testing",
+    "selectedSkillDescription": "Description Testing",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1009,
+    "level": 2,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 1013,
+    "skill": {
+      "id": 1013,
+      "title": "Title Testing",
+      "description": "Description Testing"
+    },
+    "selectedSkillTitle": "Title Testing",
+    "selectedSkillDescription": "Description Testing",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1010,
+    "level": 2,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 1014,
+    "skill": {
+      "id": 1014,
+      "title": "Back to self11",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Back to self11",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1011,
+    "level": 0,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 1015,
+    "skill": {
+      "id": 1015,
+      "title": "Back to self333",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Back to self333",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1012,
+    "level": 0,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1013,
+    "level": 2,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 2,
+    "skill": {
+      "id": 2,
+      "title": "Change Management",
+      "description": "To prepare and support individuals, teams, and organizations in making organizational change."
+    },
+    "selectedSkillTitle": "Change Management",
+    "selectedSkillDescription": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1014,
+    "level": 3,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 3,
+    "skill": {
+      "id": 3,
+      "title": "Back to self",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Back to self",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1015,
+    "level": 1,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 4,
+    "skill": {
+      "id": 4,
+      "title": "Mentoring",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Mentoring",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1016,
+    "level": 2,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 5,
+    "skill": {
+      "id": 5,
+      "title": "Coaching",
+      "description": "This is for testing"
+    },
+    "selectedSkillTitle": "Coaching",
+    "selectedSkillDescription": "This is for testing",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1017,
+    "level": 3,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 1012,
+    "skill": {
+      "id": 1012,
+      "title": "Title Testing",
+      "description": "Description Testing"
+    },
+    "selectedSkillTitle": "Title Testing",
+    "selectedSkillDescription": "Description Testing",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1018,
+    "level": 3,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 1013,
+    "skill": {
+      "id": 1013,
+      "title": "Title Testing",
+      "description": "Description Testing"
+    },
+    "selectedSkillTitle": "Title Testing",
+    "selectedSkillDescription": "Description Testing",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1019,
+    "level": 3,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 1014,
+    "skill": {
+      "id": 1014,
+      "title": "Back to self11",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Back to self11",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1020,
+    "level": 3,
+    "retroDate": "2019-01-02T00:00:00",
+    "skillID": 1015,
+    "skill": {
+      "id": 1015,
+      "title": "Back to self333",
+      "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon."
+    },
+    "selectedSkillTitle": "Back to self333",
+    "selectedSkillDescription": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  }
+]

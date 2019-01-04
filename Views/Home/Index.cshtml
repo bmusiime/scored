@@ -1,0 +1,68 @@
+﻿
+
+@model IEnumerable<Scored.ViewModels.RetroViewModel>
+    @{
+        ViewData["Title"] = "Home Page";
+    }
+    @{
+        Layout = "~/Views/Shared/_Home.cshtml";
+    }
+
+
+    <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">
+        Report, 2017-2018
+    </h2>
+    <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5">
+        This report can be used to initiate a formal discussion towards: support, development and training ...details
+    </h3>
+
+    <div class="table-wrapper">
+        @using (Html.BeginForm())
+        {
+        <div class="container">
+            <div class="row search">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="dataTables_filter">
+                        <label class="searchInfo mbr-fonts-style display-7">Search:</label>
+                        <input class="form-control input-sm">
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+        <div class="container scroll">
+            <table class="table isSearch" cellspacing="0">
+                <thead>
+                    <tr class="table-heads ">
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.RetroDate)
+                        </th>
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.Level)
+                        </th>
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.SelectedSkillTitle)
+                        </th>
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.SelectedSkillDescription)
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.RetroDate)</td>
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.Level)</td>
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.SelectedSkillTitle)</td>
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.SelectedSkillDescription)</td>
+
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+    </div>

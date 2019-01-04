@@ -1,0 +1,16 @@
+﻿@{
+    ViewData["Title"] = "About";
+}
+@{
+    Layout = "~/Views/Shared/_Home.cshtml";
+}
+
+<h1> About </h1>
+<h3>
+    under construction
+</h3>
+<p>@Html.Label(ViewData["AppUrl"].ToString())</p>
+<p>@Html.Label(ViewData["Version"].ToString())</p>
+<p>@Html.Label(ViewData["Runtime"].ToString())</p>
+<p>@Html.Label(ViewData["ApiUrl"].ToString())</p>
+<p>@Html.Label(ViewData["ASPNETCORE_URLS"].ToString())</p>

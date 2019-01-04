@@ -1,0 +1,56 @@
+﻿[
+  {
+    "id": 1,
+    "title": "Project Management",
+    "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "skillViewModels": null
+  },
+  {
+    "id": 2,
+    "title": "Change Management",
+    "description": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "skillViewModels": null
+  },
+  {
+    "id": 3,
+    "title": "Back to self",
+    "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "skillViewModels": null
+  },
+  {
+    "id": 4,
+    "title": "Mentoring",
+    "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "skillViewModels": null
+  },
+  {
+    "id": 5,
+    "title": "Coaching",
+    "description": "This is for testing",
+    "skillViewModels": null
+  },
+  {
+    "id": 1012,
+    "title": "Title Testing",
+    "description": "Description Testing",
+    "skillViewModels": null
+  },
+  {
+    "id": 1013,
+    "title": "Title Testing",
+    "description": "Description Testing",
+    "skillViewModels": null
+  },
+  {
+    "id": 1014,
+    "title": "Back to self11",
+    "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "skillViewModels": null
+  },
+  {
+    "id": 1015,
+    "title": "Back to self333",
+    "description": "To provide direction, creates interest and commitment among its members and attracts users. The strategic vision of an official statistical system is the desired future of this system at the end of a set horizon.",
+    "skillViewModels": null
+  }
+]

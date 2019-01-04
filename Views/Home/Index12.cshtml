@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Scored.ViewModels.SkillViewModel>
+    @{
+        ViewBag.Title = "Scored : Skills list";
+    }
+    <h2>Skills List</h2>
+    <p>
+        @Html.ActionLink("Add a new skill to the system", "Create")
+    </p>
+    @using (Html.BeginForm())
+    {
+        <p>
+            @*Department Name: @Html.DropDownList("departmentName", "All")*@
+            Title: @Html.TextBox("SearchString") <br />
+            <input type="submit" value="Filter" />
+        </p>
+    }
+    <table class="table">
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th></th>
+        </tr>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Title)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+                </td>
+            </tr>
+        }
+    </table>

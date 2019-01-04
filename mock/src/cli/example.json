@@ -1,0 +1,144 @@
+{
+  "skills": [
+  {
+    "id": 1,
+    "title": "Project Management",
+    "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "skillViewModels": null
+  },
+  {
+    "id": 2,
+    "title": "Change Management",
+    "description": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "skillViewModels": null
+  }
+]
+,
+  "listskills": [
+  {
+    "id": 1,
+    "title": "Project Management",
+    "skillListModels": null
+  },
+  {
+    "id": 2,
+    "title": "Change Management",
+    "skillListModels": null
+  }
+]
+,
+  "retros": [
+  {
+    "id": 1,
+    "level": 2,
+    "retroDate": "2001-11-11T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 2,
+    "level": 3,
+    "retroDate": "2001-11-11T00:00:00",
+    "skillID": 2,
+    "skill": {
+      "id": 2,
+      "title": "Change Management",
+      "description": "To prepare and support individuals, teams, and organizations in making organizational change."
+    },
+    "selectedSkillTitle": "Change Management",
+    "selectedSkillDescription": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 4,
+    "level": 1,
+    "retroDate": "2001-02-02T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 5,
+    "level": 3,
+    "retroDate": "2001-02-02T00:00:00",
+    "skillID": 2,
+    "skill": {
+      "id": 2,
+      "title": "Change Management",
+      "description": "To prepare and support individuals, teams, and organizations in making organizational change."
+    },
+    "selectedSkillTitle": "Change Management",
+    "selectedSkillDescription": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1002,
+    "level": 3,
+    "retroDate": "2018-12-19T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1003,
+    "level": 1,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 1,
+    "skill": {
+      "id": 1,
+      "title": "Project Management",
+      "description": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time"
+    },
+    "selectedSkillTitle": "Project Management",
+    "selectedSkillDescription": "This involves initial, planning, execution, controlling, and closing the work of a team to achieve specific goals and meet specific success criteria at the specified time",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  },
+  {
+    "id": 1004,
+    "level": 4,
+    "retroDate": "2018-12-11T00:00:00",
+    "skillID": 2,
+    "skill": {
+      "id": 2,
+      "title": "Change Management",
+      "description": "To prepare and support individuals, teams, and organizations in making organizational change."
+    },
+    "selectedSkillTitle": "Change Management",
+    "selectedSkillDescription": "To prepare and support individuals, teams, and organizations in making organizational change.",
+    "levels": null,
+    "skills": null,
+    "retroViewModels": null
+  }
+]
+}

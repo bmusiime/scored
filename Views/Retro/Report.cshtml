@@ -1,0 +1,64 @@
+﻿
+@model IEnumerable<Scored.ViewModels.RetroViewModel>
+
+    <h2 class="mbr-section-title mbr-fonts-style align-center pb-3 display-2">
+        Retro Notes
+    </h2>
+    <h3 class="mbr-section-subtitle mbr-fonts-style align-center pb-5 mbr-light display-5">
+        Review and Edit
+    </h3>
+    <div class="table-wrapper">
+        @using (Html.BeginForm())
+        {
+        <div class="container">
+            <div class="row search">
+                <div class="col-md-6"></div>
+                <div class="col-md-6">
+                    <div class="dataTables_filter">
+                        <label class="searchInfo mbr-fonts-style display-7">Search:</label>
+                        <input class="form-control input-sm">
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+        <div class="container scroll">
+            <table class="table isSearch" cellspacing="0">
+                <thead>
+                    <tr class="table-heads ">
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.RetroDate)
+                        </th>
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.Level)
+                        </th>
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.SelectedSkillTitle)
+                        </th>
+                        <th class="head-item mbr-fonts-style display-7">
+                            @Html.DisplayNameFor(model => model.SelectedSkillDescription)
+                        </th>
+                        <th class="head-item mbr-fonts-style display-7">
+                            Action
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+
+                    @foreach (var item in Model)
+                {
+                    <tr>
+
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.RetroDate)</td>
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.Level)</td>
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.SelectedSkillTitle)</td>
+                        <td class="body-item mbr-fonts-style display-7">@Html.DisplayFor(modelItem => item.SelectedSkillDescription)</td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.ID })
+                        </td>
+                    </tr>
+            }
+                </tbody>
+            </table>
+        </div>
+    </div>
