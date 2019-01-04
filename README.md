@@ -58,11 +58,11 @@ export APP_URL=http://localhost:3000
 export ASPNETCORE_ENVIRONMENT=Development 
 export ASPNETCORE_URLS=http://localhost:5002
 ```
-To run:
+To run the commands below inside the project root folder
 ```
 dotnet clean
 dotnet build
-dotnet run -project scored
+dotnet run
 ```
 
 The app should be running and accessible on http://localhost:5002
