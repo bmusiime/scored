@@ -1,6 +1,0 @@
-/Users/bmusiim/Documents/Projects/MVC/Scored/Scored/obj/Debug/netcoreapp2.1/Scored.csprojAssemblyReference.cache
-/Users/bmusiim/Documents/Projects/MVC/Scored/Scored/obj/Debug/netcoreapp2.1/Scored.csproj.CoreCompileInputs.cache
-/Users/bmusiim/Documents/Projects/MVC/Scored/Scored/obj/Debug/netcoreapp2.1/Scored.RazorAssemblyInfo.cache
-/Users/bmusiim/Documents/Projects/MVC/Scored/Scored/obj/Debug/netcoreapp2.1/Scored.RazorAssemblyInfo.cs
-/Users/bmusiim/Documents/Projects/MVC/Scored/Scored/obj/Debug/netcoreapp2.1/Scored.AssemblyInfoInputs.cache
-/Users/bmusiim/Documents/Projects/MVC/Scored/Scored/obj/Debug/netcoreapp2.1/Scored.AssemblyInfo.cs
