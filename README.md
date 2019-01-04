@@ -1,8 +1,11 @@
-to run this project you will need a mock json-server
+# Get started
+
+To run this project you will need a mock json-server
 Refer to: https://github.com/typicode/json-server for more information
 
+This is already cloned to the mock folder of this project, so lets proceed.
 
-# mock data
+## Setting up the mock data
 
 Run the mock server:
 ```
@@ -37,7 +40,7 @@ http://localhost:3000/api/retros
   
 ```
 
-# scored
+## Setting up the scored
 clone the project to your local machine
 ```
 git clone https://github.com/bmusiime/scored.git
