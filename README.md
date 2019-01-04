@@ -1,29 +1,7 @@
-# scored
-clone the project to your local machine
-```
-git clone https://github.com/bmusiime/scored.git
-```
+to run this project you will need a mock json-server
+Refer to: https://github.com/typicode/json-server for more information
 
-Restore dependencies
 
-```
-cd scored
-```
-Set the following environment variables:
-```
-export TEST_URL=http://localhost:3000
-export APP_URL=http://localhost:3000  
-export ASPNETCORE_ENVIRONMENT=Development 
-export ASPNETCORE_URLS=http://localhost:5002
-```
-To run:
-```
-dotnet clean
-dotnet build
-dotnet run -project scored
-```
-
-The app should be running and accessible on http://localhost:5002
 # mock data
 
 Run the mock server:
@@ -58,3 +36,30 @@ http://localhost:3000/api/listskills
 http://localhost:3000/api/retros
   
 ```
+
+# scored
+clone the project to your local machine
+```
+git clone https://github.com/bmusiime/scored.git
+```
+
+Restore dependencies
+
+```
+cd scored
+```
+Set the following environment variables:
+```
+export TEST_URL=http://localhost:3000
+export APP_URL=http://localhost:3000  
+export ASPNETCORE_ENVIRONMENT=Development 
+export ASPNETCORE_URLS=http://localhost:5002
+```
+To run:
+```
+dotnet clean
+dotnet build
+dotnet run -project scored
+```
+
+The app should be running and accessible on http://localhost:5002
