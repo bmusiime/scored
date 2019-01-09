@@ -1,5 +1,13 @@
 # Get started
 
+
+Scored:
+
+This is dotnet core application, as such you will need to install dotnet using: https://dotnet.microsoft.com/download
+
+Download/chrone the project to: https://github.com/bmusiime/scored.git
+
+
 To run this project you will need a mock json-server
 Refer to: https://github.com/typicode/json-server for more information
 
